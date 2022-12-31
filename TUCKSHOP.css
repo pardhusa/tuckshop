@@ -1,0 +1,335 @@
+#main {
+    background-image: url('./BG.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+span {
+    font-family: 'bodoni mt black';
+    color: orange;
+}
+.head{
+    text-align: center;
+    color: black;
+    font-family: 'bodoni mt black';
+    font-style: bold;
+    font-size: x-large;
+    height: 20vh;
+}
+.line {
+    height: 1px;
+    width: 60vw;
+    background-color: black;
+}
+.home{
+    width: 500px;
+    height: 290px;
+    background-color: lightgray;
+    margin: 100px auto;
+    font-size: larger;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.home p1 {
+    color: black;
+    font-weight: bold;
+}
+.form {
+    font-size: 20px;
+    position: relative;
+    top: -20px;
+}
+.form input {
+    font-family: 'courier new';
+    margin-left: 100px;
+    
+}
+::placeholder {
+    font-family: 'courier new';
+
+}
+.btn {
+    font-size: 16px;
+     position: relative;
+     margin-top: 30px;
+     border-radius: 10px;
+     background: rgb(235, 89, 5);
+}   
+.btn:hover {
+    background-color: white;
+    color: rgb(235, 89, 5);
+}
+.btn a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#memu {
+    background-image: url('./BG2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+ul li {
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 43px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: black; 
+}
+#sec1:hover {
+    background-color: white;
+    
+}
+#sec2:hover {
+    background-color: white;
+    
+}
+#sec3:hover {
+    background-color: white;
+    
+}
+#sec4:hover {
+    background-color: white;
+    
+}
+#sec5:hover {
+    background-color: white;
+    
+}
+#sec1 {
+    background-color: lightblue;
+    border: 1px solid black;
+    border-radius: 5px;
+    max-width: fit-content;
+    display: inline-flex;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgb(54, 48, 38);
+    margin-top: 45vh;
+}
+#sec2 {
+    background-color: lightblue;
+    border: 1px solid black;
+    border-radius: 5px;
+    max-width: fit-content;
+    display: inline-flex;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgb(54, 48, 38);
+    
+}
+#sec3 {
+    background-color: lightblue;
+    border: 1px solid black;
+    border-radius: 5px;
+    max-width: fit-content;
+    display: inline-flex;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgb(54, 48, 38);
+}
+#sec4 {
+    background-color: lightblue;
+    border: 1px solid black;
+    border-radius: 5px;
+    max-width: fit-content;
+    display: inline-flex;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgb(54, 48, 38);
+}
+#sec5 {
+    background-color: lightblue;
+    border: 1px solid black;
+    border-radius: 5px;
+    max-width: fit-content;
+    display: inline-flex;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgb(54, 48, 38);
+}
+#shops {
+    background-image: url('./bg4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+.h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'bodoni mt black';
+}
+table {
+    width: 60%;
+}
+th {
+    background-color: gray;
+}
+td {
+    background-color: lightgray;
+}
+th,td{
+    font-family: 'chiller';
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: x-large;
+    font-weight: bold;
+}
+.mech {
+    margin-top: 10vh;
+}
+.ele {
+    margin-top: 8vh;
+}
+.cse {
+    margin-top: 8vh;
+}
+.back {
+    border: 1px solid black;
+    max-width: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: black;
+}
+.back a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+.back:hover{
+    background-color: white;
+    color: black;
+}
+.back a :hover{
+    background-color: white;
+    color: black;
+}
+#items {
+    background-image: url('./bg4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+#heading {
+    margin: 0px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'bodoni mt black';
+} 
+.container1 h2 {
+    font-family: 'bodoni mt black';
+    font-size: 40px;
+    border-radius: 10px;
+    max-width: fit-content;
+    background-color: lightslategray;
+} 
+.M1 {
+    width: 48%;
+}
+.M2 {
+    width: 48%;
+}
+.M3 {
+    width: 48%;
+}
+.M4 {
+    width: 48%;
+}
+.container2 h2 {
+    margin-top: 50%;
+    font-family: 'bodoni mt black';
+    font-size: 40px;
+    border-radius: 10px;
+    max-width: fit-content;
+    background-color: lightslategray;
+}
+.E1 {
+    width: 48%;
+}
+.E2 {
+    width: 48%;
+}
+.E3 {
+    width: 48%;
+}
+.E4 {
+    width: 48%;
+}
+.container3 h2 {
+    margin-top: 50%;
+    font-family: 'bodoni mt black';
+    font-size: 40px;
+    border-radius: 10px;
+    max-width: fit-content;
+    background-color: lightslategray;
+}
+.C1 {
+    width: 48%;
+}
+.C2 {
+    width: 48%;
+}
+.C3 {
+    width: 48%;
+}
+.C4 {
+    width: 48%;
+}
+.back2 {
+    border: 1px solid black;
+    max-width: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: black;
+    margin-top: 50%;
+}
+.back2 a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+.back2:hover{
+    background-color: white;
+    color: black;
+}
+.back2 a :hover{
+    background-color: white;
+    color: black;
+}
+#details {
+    background-image: url('./bg4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;    
+}
+#about {
+    background-image: url('./bg3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.headline h1{
+    text-align: center;
+    font-family: 'bodoni mt black';
+    font-weight: bold;
+    font-size: 60px;
+    margin: 0px;
+}
+.paraline  p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    background-color: lightyellow;    
+    border-radius: 10px;
+    font-weight: bold;
+}
